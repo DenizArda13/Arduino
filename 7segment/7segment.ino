@@ -1,0 +1,160 @@
+int segment[] = {2,3,4,5,6,7,8};
+void setup() {
+  for(int i =0; i<7; i++){
+    pinMode(segment[i],OUTPUT);
+  }
+
+}
+
+void loop() {
+  // 0
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],1);
+  digitalWrite(segment[6],0);
+  delay(1000);
+  //1
+  digitalWrite(segment[0],1);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],1);
+  digitalWrite(segment[4],1);
+  digitalWrite(segment[5],1);
+  digitalWrite(segment[6],1);
+  delay(1000);  
+  //2
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],1);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],1);
+  delay(1000);*/ 
+  //3
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],1);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],1);
+  delay(1000); 
+  //4
+  digitalWrite(segment[0],1);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],1);
+  digitalWrite(segment[4],1);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);*/
+  //5
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],1);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],1);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);  
+  //6
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],1);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);  
+  //7
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],1);
+  digitalWrite(segment[4],1);
+  digitalWrite(segment[5],1);
+  digitalWrite(segment[6],1);
+  delay(1000);
+  //8
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);
+  //9
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],1);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);   
+  //A
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],1);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000); 
+  //B    
+  digitalWrite(segment[0],1);
+  digitalWrite(segment[1],1);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);
+  //C
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],1);
+  digitalWrite(segment[2],1);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],1);
+  digitalWrite(segment[6],0);
+  delay(1000);
+  //D
+  digitalWrite(segment[0],1);
+  digitalWrite(segment[1],0);
+  digitalWrite(segment[2],0);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],1);
+  delay(1000);
+  //E
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],1);
+  digitalWrite(segment[2],1);
+  digitalWrite(segment[3],0);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);
+  //F
+  digitalWrite(segment[0],0);
+  digitalWrite(segment[1],1);
+  digitalWrite(segment[2],1);
+  digitalWrite(segment[3],1);
+  digitalWrite(segment[4],0);
+  digitalWrite(segment[5],0);
+  digitalWrite(segment[6],0);
+  delay(1000);
+
+
+
+
+
+
+}
